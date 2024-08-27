@@ -1,0 +1,14 @@
+.header {
+  width: 100%;
+  padding: 2rem;
+  background-color: #f2613f;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  text-align: center;
+  font-family: "op-bo";
+  font-size: 1.8rem;
+  color: #f3f3f3;
+}

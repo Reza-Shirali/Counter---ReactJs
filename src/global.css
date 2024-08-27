@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "op";
+  src: url("./assets/fonts/OpenSans_Condensed-Regular.ttf");
+}
+@font-face {
+  font-family: "op-me";
+  src: url("./assets/fonts/OpenSans_Condensed-Medium.ttf");
+}
+@font-face {
+  font-family: "op-sb";
+  src: url("./assets/fonts/OpenSans_Condensed-SemiBold.ttf");
+}
+@font-face {
+  font-family: "op-bo";
+  src: url("./assets/fonts/OpenSans_Condensed-Bold.ttf");
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "op";
+  font-size: 1.6rem;
+  background-color: #fff;
+  min-height: 100vh;
+  background-color: #481e14;
+  width: calc(100% - 30rem);
+  margin: 0 auto;
+  padding: 4rem;
+}
